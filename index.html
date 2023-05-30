@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="img/333.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Группа общения "ПИЛА"</title>
+  </head>
+  <body>
+    <header id="header" class="header lock-padding">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="img/hour2.svg" title="Главная страница" alt="Logo" width="160" /></a>
+        </div>
+        <ul class="links">
+          <li><a href="#popup1" class="underline"> О нас</a></li>
+          <li><a href="#popup" class="underline"> Правила</a></li>
+          <li><a href="https://t.me/PilaHelper_Bot" class="underline" target="_blank"> Помощь</a></li>
+          <li><a href="https://www.donationalerts.com/r/best_pila" class="underline" target="_blank"> Донат</a></li>
+        </ul>
+        <a href="https://t.me/chatik_groupa" class="action_btn" target="_blank">Заходи к нам!</a
+        >
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="#popup1" class="underline"> О нас</a></li>
+        <li><a href="#popup" class="underline"> Правила</a></li>
+        <li><a href="https://t.me/PilaHelper_Bot" class="underline" target="_blank"> Помощь</a></li>
+        <li><a href="https://www.donationalerts.com/r/best_pila" class="underline" target="_blank"> Донат</a></li>
+        
+        <li>
+          <a href="https://t.me/chatik_groupa" class="action_btn" target="_blank">Заходи к нам!</a>
+        </li>
+      </div>
+
+      <main>
+        <section id="hero">
+          <h1>ПИЛА</h1>
+          <p>я хочу сыграть с тобой в одну игру</p>
+        </section>
+      </main>
+
+    </header>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-close"
+          : "fa-solid fa-bars";
+      };
+    </script>
+
+    <div id="popup" class="popup">
+      <a href="#header" class="popup_area"></a>
+      <div class="popup_body">
+        <div class="popup_content">
+          <a href="#header" class="popup_close">X</a>
+            <center><div class="popup_title">Правила группы</div></center>
+            <div class="popup_text">
+1. Оскорбление участников чата-  2 преда, потом мут на 1 час! <br>
+2. Спам/Флуд- в меру <br>
+3. Упоминание родителей оскорбительной форме - мут <br>
+4. Если участник, у которого был префикс, нарушил правила - Снимается префикс <br>
+5.1 За порнографию- БАН! <br>
+5.2 За детскую порнографию-БАН! <br>
+6. ♂️♀️ реклама в любом формате- БАН! <br>
+7. Ув. участники чата, если вы видите нарушение, сообщите об этом владельцу.  ссылка в описании чата <br>
+10. Расчленёнка /Грубое насилие: БАН <br>
+11.Ограничение возраста в голосовом чате-  +11 <br>
+12.1 Запрещены провокации в любом виде: 2 предупреждения, потом мут на 20 минут <br>
+12.2 ТРОЛЛИНГ ПО СОГЛАСИЮ <br>
+13. Оскорбления участника сидящего в гч (голосовом чате) 1 предупреждение, потом мут 20 минут <br>
+14. Если участник  начинает кричать, перебивать и не намерен останавливаться- предупреждение, потом мут 20 минут <br>
+15. Если у участника фанить в микрофон, есть громкие посторонние звуки- 2 предупреждения, потом мут 20 минут <br>
+16. Оскорбления любых религий и наций, идёт предупреждение, потом мут на 25 минут <br>
+17. Если в гч сидит 5+ человек, нужно выключать микрофон (если не говоришь)-2 предупреждения, потом мут 5 минут <br>
+18. Запрещён обход наказания “если вам был выдан мут на одном акаунте, вы получите его и на другом!” <br>
+19.  Запрещено обсуждать политику или выяснять отношения между странами <br>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="popup1" class="popup1">
+      <a href="#header" class="popup1_area"></a>
+      <div class="popup1_body">
+        <div class="popup1_content">
+          <a href="#header" class="popup1_close">X</a>
+            <center><div class="popup1_title">Наша история</div></center>
+            <div class="popup1_text">
+Добро пожаловать в нашу группу для общения! <br><br>
+
+Мы рады приветствовать вас здесь, и готовы рассказать о нашей группе поподробнее. Так же расскажем про ход нашего развития. <br>
+
+Мы были созданы 10 февраля 2023 года и с гордостью сообщаем, что уже успели привлечь более 13 000 участников. Это свидетельствует о том, что наша группа обрела значительную популярность среди молодёжи. <br>
+
+Наша цель: создать дружелюбное и поддерживающее общество, где каждый участник может свободно выражать свои мысли, делиться опытом и находить новых друзей. Мы стремимся к тому, чтобы наша группа стала уютным уголком, где каждый чувствует себя комфортно и находит интересные и позитивные общие темы для обсуждения.<br>
+
+Мы уверены, что общение - это ключевой элемент развития каждого человека. В нашей группе вы найдете людей с разными интересами, опытом и культурой, и это создает уникальную возможность обмена знаниями и идеями. Мы поощряем активное участие всех членов, так как это способствует разнообразию и богатству обсуждений.<br>
+
+Мы не останавливаемся на достигнутом и стремимся к новым успехам!<br>
+
+Мы постоянно работаем над развитием и улучшением нашей группы, чтобы она оставалась привлекательной и полезной для всех. Мы предлагаем разнообразные мероприятия, конкурсы, образовательные материалы и другие возможности, которые помогут вам расширить свои горизонты и обрести новые навыки.<br>
+
+ Мы ценим каждого участника, и верим, что вы сможете внести свой вклад в развитие и успех нашей группы. <br><br>
+
+ Благодарим за ваше участие в нашем проекте.<br>
+ 
+ Если у вас есть вопросы, предложения или идеи, не стесняйтесь обращаться к администраторам, либо в раздел "Помощь". Мы всегда открыты для общения и готовы поддержать вас. <br>
+
+Присоединяйтесь к нам и станьте частью нашего растущего сообщества. 
+Вместе мы достигнем еще больших высот!
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
