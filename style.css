@@ -11,7 +11,7 @@ i {
 body {
     height: 100vh;
     background-color: #000;
-    background-image: url(img/back2.webp);
+    background-image: url(back2.webp);
     background-size: cover;
     background-position: center;
 }
